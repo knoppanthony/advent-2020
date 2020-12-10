@@ -50,6 +50,7 @@ def partTwo(instruction_list):
 
             if i == len(instruction_list) - 1 and ins != "jmp":
                 print("AccumWeDidIt:" + str(accumulator))
+                break
 
 
 
